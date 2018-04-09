@@ -5,7 +5,7 @@ from . import settings as mjml_settings
 
 
 def check_mjml_command():
-    test_mjml = '<mjml><mj-body><mj-container></mj-container></mj-body></mjml>'
+    test_mjml = '<mjml><mj-body></mj-body></mjml>'
     test_result_fragment = '<html '
     try:
         html = mjml_render(test_mjml)
